@@ -55,7 +55,7 @@ async function loginUser(event){
         if(loggedInUserJson) {
             localStorage.setItem('token', loggedInUserJson.data.token);
             alert(loggedInUserJson.message);
-            window.location.href = 'https://finalproject-25jg.onrender.com/home.html';
+            window.location.href = 'https://finalproject-25jg.onrender.com/login.html';
         }
     } catch(error){
         alert("There is an error in Loggin")
