@@ -17,6 +17,10 @@ mongoose.connect(process.env.MONGODB_URL).then(() => {
     console.error(`Error connecting to the Database: ${error} `);
 })
 
+ app.get('/', (req, res) => {
+     res.send('Hello World');
+ })
+
 
 app.use(express.static(path.join(__dirname, 'frontend')));
 
