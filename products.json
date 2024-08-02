@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name":" THE BOX",
+        "price": 2000,
+        "image": "/image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" SHIRT",
+        "price": 25,
+        "image": "/image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" GUNDAM SAZABI",
+        "price": 70,
+        "image": "/image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" GENGAR SHIRT",
+        "price": 20,
+        "image": "/image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" NINTEN DO SWITCH WHITE",
+        "price": 125,
+        "image": "/image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" NINTENDO SWITCH",
+        "price": 100,
+        "image": "/image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" PS4",
+        "price": 100,
+        "image": "/image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" WITCHER",
+        "price": 100,
+        "image": "/image/8.png"
+    },
+    {
+        "id": 9,
+        "name":" ?",
+        "price": 1,
+        "image": "/image/9.png"
+    },
+    {
+        "id": 10,
+        "name":" SPIDER MAN",
+        "price": 200,
+        "image": "/image/10.png"
+    },
+    {
+        "id": 11,
+        "name":" PS5",
+        "price": 200,
+        "image": "/image/11.png"
+    },
+    {
+        "id": 12,
+        "name":" NINTENDO DS LITE",
+        "price": 300,
+        "image": "/image/12.png"
+    },
+    {
+        "id": 13,
+        "name":" GUNDAM",
+        "price": 200,
+        "image": "/image/13.png"
+    },
+    {
+        "id": 14,
+        "name":" PHONE ?",
+        "price": 2000,
+        "image": "/image/14.png"
+    },
+    {
+        "id": 15,
+        "name":" SHIRT",
+        "price": 50000,
+        "image": "/image/15.png"
+    },
+    {
+        "id": 16,
+        "name":" YES",
+        "price": 200,
+        "image": "/image/16.png"
+    }
+]
