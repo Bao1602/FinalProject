@@ -41,6 +41,7 @@ closeCart.addEventListener('click', () => {
             addToCart(id_product);
         }
     })
+    //add item to cart
 const addToCart = (product_id) => {
     let positionThisProductInCart = cart.findIndex((value) => value.product_id == product_id);
     if(cart.length <= 0){
