@@ -1,5 +1,3 @@
-
-
 async function registerUser(event){
     event.preventDefault();
     const name = document.getElementById('name').value;
@@ -10,12 +8,12 @@ async function registerUser(event){
         name,
         email,
         password
-    }
+    };
 
     try{
         const createdUser = await fetch('/api/v1/users/register', {
-            method:"POST",
-            headers:{
+            method: "POST",
+            headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(newUser)
@@ -27,7 +25,7 @@ async function registerUser(event){
             alert(createdUserJson.message);
         }
     } catch(error){
-        alert("There is an error in creating user")
+        alert("There is an error in creating user");
     }
 }
 
@@ -39,12 +37,12 @@ async function loginUser(event){
     const userSigninData = {
         email,
         password
-    }
+    };
 
     try{
         const loggedInUser = await fetch('/api/v1/users/login', {
-            method:"POST",
-            headers:{
+            method: "POST",
+            headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(userSigninData)
@@ -58,8 +56,9 @@ async function loginUser(event){
             window.location.href = 'https://finalproject-25jg.onrender.com/home.html';
         }
     } catch(error){
-        alert("There is an error in Logging")
+        alert("There is an error in Logging");
     }
 }
 
-
+// Export functions directly
+module.exports = { registerUser, loginUser };

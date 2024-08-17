@@ -43,7 +43,7 @@ test('should register a new user successfully', async () => {
   };
   fetchMock.mockResponseOnce(JSON.stringify(mockResponse));
 
-  // Import your function using require
+  // Import your functions using require
   const { registerUser } = require('./script'); // Adjust the path as needed
 
   const event = { preventDefault: jest.fn() };
@@ -75,7 +75,7 @@ test('should login an existing user successfully', async () => {
   };
   fetchMock.mockResponseOnce(JSON.stringify(mockResponse));
 
-  // Import your function using require
+  // Import your functions using require
   const { loginUser } = require('./script'); // Adjust the path as needed
 
   const event = { preventDefault: jest.fn() };
