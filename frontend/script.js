@@ -60,5 +60,4 @@ async function loginUser(event){
     }
 }
 
-// Export functions directly
 module.exports = { registerUser, loginUser };
