@@ -60,4 +60,4 @@ async function loginUser(event){
     }
 }
 
-
+module.exports = {loginUser, registerUser};
