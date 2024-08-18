@@ -53,8 +53,6 @@ app.use(limiter);
 
 // MongoDB connection
 mongoose.connect(process.env.MONGODB_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
     maxPoolSize: 10, 
 }).then(() => {
     console.log('Connected to the Database');
