@@ -60,4 +60,4 @@ async function loginUser(event){
     }
 }
 
-export default { registerUser, loginUser };
+module.exports = { registerUser, loginUser };
