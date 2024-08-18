@@ -55,12 +55,13 @@ app.use(limiter);
 mongoose.connect(process.env.MONGODB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    poolSize: 10, // Set a connection pool size
+    maxPoolSize: 10, 
 }).then(() => {
     console.log('Connected to the Database');
 }).catch((error) => {
     console.error(`Error connecting to the Database: ${error}`);
 });
+
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'frontend')));
