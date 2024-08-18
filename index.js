@@ -38,8 +38,7 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-// Middleware to protect against common vulnerabilities
-app.use(helmet());
+//app.use(helmet());
 
 // Middleware for JSON parsing
 app.use(express.json());
